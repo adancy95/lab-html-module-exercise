@@ -1,0 +1,221 @@
+/* styling for the nav bar */
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 0 20px;
+  height: 50px;
+  margin: 0;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+ 
+  
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: baseline;
+  padding-top:10px;
+  font-size: 16px;
+}
+
+
+.heart{
+  margin: 20px;
+}
+
+
+.acronym {
+  padding-left: 10px;
+}
+
+.top-left{
+  padding-top:10px;
+  padding-left: 15px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Header styling*/
+header {
+  height: 500px;
+  background-color: rgb(32,101,136);
+  color: white;
+  padding: 0 0 35px 0;
+  margin: 0 auto;
+  background-image: url(images/city-scape.svg);
+  background-size: cover;
+  align-items: center;
+}
+
+.search-bar {
+  padding: 0 0 0 15px;
+  padding: 0 5px;
+}
+
+.search-bar input {
+  background-color: rgb(31, 82, 111);
+  color: gray;
+  width: 800px;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid rgb(31, 82, 111);
+}
+.search-bar p a {
+  text-decoration: none;
+  color: white;
+}
+
+#bear-logo {
+  float: right;
+  
+}
+
+#npm-logo {
+  float: left;
+}
+
+.about-npm{
+  width: 30%;
+  margin: 0 auto;
+  padding: 15px 40px 40px 200px;
+  float:left;
+  text-align: left;
+  margin-top: 125px;
+}
+
+
+
+#city-scape {
+  float: right;
+ 
+}
+
+
+
+.about-npm button {
+  background-color: rgb(240, 146, 51);
+}
+
+.about-npm button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* collaboration section */
+
+#collaboration {
+  margin: 0 auto;
+  color: white;
+  background-color: rgb(39,53,71);
+  height: 200px;
+  
+}
+.collaboration-image {
+  width: 30%;
+  float: left;
+  margin-bottom: 0px;
+
+}
+
+.collaboration {
+  width: 30%;
+  float: right;
+
+}
+
+.collaboration button{
+  background-color: rgb(203, 56, 55);
+}
+
+.collaboration button a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* what is npm section */
+
+#npm {
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  color: white;
+}
+.what-is-npm {
+ padding: 60px 40px 40px 100px;
+ float:left;
+ text-align: left;
+ color:white;
+ margin-top: 125px;
+ width: 30%;
+ position: absolute;
+
+}
+
+.what-is-npm button{
+  background-color: rgb(49,68,88);
+}
+
+.what-is-npm button a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* what can you make section */
+
+#building-blocks {
+  background-color: white;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.building-blocks-header {
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(83, 88, 98);
+  padding-top: 20px;
+}
+
+.building-blocks-header h1 {
+  color: rgb(83, 88, 98);
+}
+
+#building-blocks p a {
+  color: rgb(208, 74, 73);
+}
+
+#building-blocks p {
+  color: rgb(135, 145, 156);
+}
+
+#building-blocks h3 {
+  color: rgb(83, 88, 98);
+}
+.col {
+  float: left;
+}
+.col-3 {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.col-middle {
+  margin: 0 5% 0 5%;
+}
+
+.clearfix {
+  clear: both;
+ }
